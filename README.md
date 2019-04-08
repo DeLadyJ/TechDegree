@@ -68,6 +68,7 @@ function getRandomColor(){
   setInterval(getRandomColr, 5000); 
   {
 }
+document.getElementById(quoteDisplayId):displayQuote; quotes[randomNumber]; HTMLElement
 
 //create print function
 function printQuote();
@@ -82,8 +83,13 @@ qprop = '<p class="tag"> [print.tag];
 qprop += '</p>'
 console.log(gprop);
 
+//sets the quote-box's innerHTML equal to the HTML
+ document.getElementById('quote-box').innerHTML = qprop;
 
-document.getElementById(quoteDisplayId):displayQuote; quotes[randomNumber]; HTMLElement
+//This lauches the click button functio nwhen the button is clivked.
+document.getElementById('loadQuote').addEventListener("click", printQuote, false);
+
+
 
 
 
