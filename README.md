@@ -64,11 +64,14 @@ function getRandomQuote(){
 }
    
 function getRandomColor(){
-  var randomNumber = Math.floor(Math.random() * quotes.length);{
-  setInterval("getRandomColr"),3000)
-  return color(randomNumber);
+  var randomNumber = Math.floor(Math.random() * quotes.length);
+  return color(randomNumber);{
+  setInterval(getRandomColr, 5000); 
+  {
 }
- //setInterval("getRandomColr"),3000) 
+
+ 
+ 
 
  
   //document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber]; 
