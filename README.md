@@ -26,7 +26,7 @@ document.getElementById('loadQuote').addEventListener("click", printQuote, false
 var quotes = (
   (quote, ('What God intended for you goes far beyond anything you can imagine.'),
   source, ('Oprah Winfrey'),
-  tag, ('Insporational')), 
+  tag, ('Inspirational')), 
   (quote, ('There are still many causes worth sacrificing for/, so much history yet to be made.'),
   source, ('Michelle Obama'),
   tag, ('Inspirational')),
