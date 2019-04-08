@@ -52,9 +52,8 @@ var colors = [
   ]
 
 
-//calls a random quote
-//calls a random color on a timer  
-//then returns the quote
+//calls a random quote then returns the quote
+//calls a random color with a timer then returns the color
 
 var randomNumber = Math.floor(Math.random() * quotes.length);
 
@@ -70,16 +69,18 @@ function getRandomColor(){
   {
 }
 
- 
- 
-
- 
-  //document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber]; 
-
-    
-document.getElementById('newButton'.addEventListener("click", function(){
-  document.getElementById("clickButton").innerHTML (quote), (scr);
-})
+//create print function
+function printQuote();
+var print = getRandomQuote ();
+var qprop = ("");
+qprop = '<p class="quote">' [ print.quote] </p>;
+qprop = '<p class="source"> [print.source];
+qprop = '<p class="tag"> [print.tag];
+ if (print.citation) {
+ qrop += '<span class="citation">"" [print.citation] </span>;
+ qprop += '<span class="year"> [print.year] '</span>';
+qprop += '</p>'
+console.log(gprop);
 
 
 document.getElementById(quoteDisplayId):displayQuote; quotes[randomNumber]; HTMLElement
