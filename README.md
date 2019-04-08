@@ -44,27 +44,36 @@ var quotes = (
   )
 
 //log quotes array to console 
-
   console.log()
 
+//Colors array
+var colors = [
+  'red', 'blue', 'green', 'yellow'
+  ]
 
-//calls random number from 0 to betwee last array length
-//than gets the random number / quote, puts the quote in the HTML 
-// then returns the quote
 
-function getRandomQuote()
+//calls a random quote
+//calls a random color on a timer  
+//then returns the quote
+
+var randomNumber = Math.floor(Math.random() * quotes.length);
+
+function getRandomQuote(){
   var randomNumber = Math.floor(Math.random() * quotes.length);
   return quotes(randomNumber); 
+}
+   
+function getRandomColor(){
+  var randomNumber = Math.floor(Math.random() * quotes.length);{
+  setInterval("getRandomColr"),3000)
+  return color(randomNumber);
+}
+ //setInterval("getRandomColr"),3000) 
 
  
   //document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber]; 
 
-
-
-function printQuote ();{ 
-  console.log('quote');}
-  
-  
+    
 document.getElementById('newButton'.addEventListener("click", function(){
   document.getElementById("clickButton").innerHTML (quote), (scr);
 })
