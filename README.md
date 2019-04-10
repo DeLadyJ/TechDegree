@@ -20,7 +20,7 @@ My Pseudocode and RQG Code
 
 //Create a button that responds to an event listener when clicked and triggers the random quote generator
 
-document.getElementById('loadQuote').addEventListener("click", printQuote, false);
+//document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 
 // quote array
 var quotes = [
