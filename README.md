@@ -23,7 +23,7 @@ My Pseudocode and RQG Code
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 
 // quote array
-var quotes = (
+var quotes = [
   (quote, ('What God intended for you goes far beyond anything you can imagine.'),
   source, ('Oprah Winfrey'),
   tag, ('Inspirational')), 
@@ -41,7 +41,9 @@ var quotes = (
   tag, ('Wisdom)
   citation, ('Three Little Birds/, from the album Exodus '),
   year, ('1977'))
-  )
+  ]
+  
+  
 
 //log quotes array to console 
   console.log()
