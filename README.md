@@ -88,7 +88,7 @@ console.log(gprop);
 //sets the quote-box's innerHTML equal to the HTML
  document.getElementById('quote-box').innerHTML = qprop;
 
-//This lauches the click button functio nwhen the button is clivked.
+//This lauches the click button function when the button is clicked.
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
 
 
